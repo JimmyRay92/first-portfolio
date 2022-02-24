@@ -1,0 +1,33 @@
+/* background-colour */
+body{
+   background-color: #fbf8cc; 
+}
+
+nav{
+    color: #48cae4;
+}
+header{
+    color: #005f73;
+    text-align: center;
+}
+
+ul{
+    color: #48cae4;
+}
+
+article{
+   color: #48cae4;
+   font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    color:#f94144;
+}
+
+a:visited{
+    color: #f28482;
+}
+
+a:link{
+    text-decoration: none;
+}
