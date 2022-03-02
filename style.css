@@ -1,0 +1,139 @@
+ol,ul{
+  list-style: none;
+}
+
+li{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* set font size for the whole page */
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* background-colour */
+body {
+  background-color: #f8edeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav {
+  display: block;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed top;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+section {
+  border-bottom: 1px solid #caf0f8;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+section article {
+  border-bottom: 1px solid #caf0f8;
+}
+
+article:last-child {
+  border-bottom: none;
+}
+h1 {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+section h2 {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+section ul {
+  margin: 50px 0 25px;
+  color: #016ff9;
+}
+
+section li {
+  list-style-type: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #caf0f8;
+}
+
+nav a {
+  border: 1px solid #caf0f8;
+  border-radius: 10px;
+  color: #016ff9;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 5px 0;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+}
+section a {
+  border: 1px solid #caf0f8;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #016ff9;
+  display: inline-block;
+  padding: 15px 35px;
+  margin: 25px 0;
+  transition: all 200ms ease-in-out;
+}
+
+img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+a:hover,
+a:focus {
+  background-color: #caffbf;
+}
+
+@media (min-width: 800px) {
+  div {
+    flex-direction: row;
+  }
+  section {
+    border-bottom: none;
+    border-right: 1px solid #caf0f8;
+    padding: 25px 50px;
+  }
+
+  section:last-child {
+    border-right: none;
+  }
+}
