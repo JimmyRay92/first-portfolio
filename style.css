@@ -1,0 +1,188 @@
+/* get rid somne of the default styles from the broswer */
+ol,ul{
+  list-style: none;
+}
+
+li{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* navbar */
+nav{
+  background-color:#e9f5db ;
+}
+
+/* styles for ul in nav */
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* styles for anchor tag in nav */
+nav a{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+/* set font for the whole page */
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* basic styles for bigBox */
+#bigBox {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* basic styles for box */
+#box {
+  background-color: #e9f5db;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* bottom border for each section, except last section */
+section {
+  border-bottom: 1px solid #8ecae6;
+}
+
+/* makes last section border gone */
+section:last-child {
+  border-bottom: none;
+}
+
+
+/* bottom border for each article, except for last article */
+section article {
+  border-bottom: 1px solid #8ecae6;
+}
+
+/* makes last article does not have a border */
+article:last-child {
+  border-bottom: none;
+}
+
+
+/* styles for paragraph */
+p{
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #016ff9;
+  line-height: 1.5;
+  padding: 10px 0;
+  text-transform: none;
+}
+
+
+/* styles for h2 */
+section h2 {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+/* styles for ul in each section */
+section ul {
+  margin: 50px 0 25px;
+  color: #016ff9;
+}
+
+
+/* styles for li in each section*/
+section li {
+  list-style-type: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #8ecae6;
+}
+
+
+/* styles for anchor tag */
+ a {
+  border: 1px solid #8ecae6;
+  font-size: 1em;
+  border-radius: 10px;
+  color: #016ff9;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 5px 0;
+  transition: all 200ms ease-in-out;
+  text-decoration: none;
+}
+
+
+/* styles for img */
+img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+
+/* added animation for anchor tag */
+a:hover,
+a:focus {
+  background-color: #caffbf;
+}
+
+/* media breakpoint for tablet */
+@media (min-width: 50em) {
+  #box {
+    flex-direction: row;
+  }
+
+  section {
+    border-bottom: none;
+    border-right: 1px solid #8ecae6;
+    padding: 25px 50px;
+  }
+
+  section p{
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  
+  section:last-child {
+    border-right: none;
+  }
+}
+
+
+/* media breakpoint for desktop */
+@media (min-width: 62em){
+section h2{
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+  section p{
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+}

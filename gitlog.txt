@@ -1,0 +1,41 @@
+commit 879da36d33b5a7abe6032cdad0c4805a6ce74159
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Sat Mar 5 20:29:09 2022 +1000
+
+    fixed some comments
+
+commit 1d005dc1d304d1e7fc0b4e0d9a895f6c08e09bdd
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Sat Mar 5 20:05:29 2022 +1000
+
+    finished readme
+
+commit 36532b1234ebcc8bbefa904722f30c0818fcb48a
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Sat Mar 5 17:57:00 2022 +1000
+
+    final commit
+
+commit ea526f92ba0ebd1775459d87031aebba88c6b694
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Fri Mar 4 14:40:39 2022 +1000
+
+    added comments to html and css
+
+commit d82fffe1c18474c61c3323bb947e181ed547b27d
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Fri Mar 4 12:40:50 2022 +1000
+
+    changed fonts in pc view
+
+commit cf2650198a074f07ac87eb66e5eecd2248b11edf
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Thu Mar 3 14:22:01 2022 +1000
+
+    fixed navbar
+
+commit 0f83a83032cecca68f51844f96f1bfd253938183
+Author: jimmyray92 <jameswang675203@gmail.com>
+Date:   Wed Mar 2 10:44:40 2022 +1000
+
+    responsive deign
